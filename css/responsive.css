@@ -1,0 +1,264 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .quote-select::before {
+    right: 22px;
+    top: 13px;
+  }
+ 
+
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .slider-img img {
+    margin-top: 267px;
+    margin-left: -142px;
+    height: 100%;
+    width: 110%;
+}
+.slider-content p {
+  font-size: 17px;
+  padding-right: 159px;
+}
+.slider-content h2 {
+  font-size: 56px;
+}
+
+  .solution-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+    .quoteform h2 {
+      font-size: 26px;
+    }
+
+    .quote-position img {
+      top: -136px;
+      left: -248px;
+  }
+
+  .quoteform p {
+    margin-top: 10px;
+  }
+  .quote-select::before {
+    right: 10px;
+    top: 14px;
+  }
+  .quote-area .pt-90 {
+    padding-top: 60px;
+  }
+
+  .testimonial-area {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+  .single-brand {
+    margin-right: 75px;
+  }
+  
+  .testimonial-wrapper::after {
+    right: 576px;
+  }
+  
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .slider-height {
+    min-height: 600px;
+  }
+  
+  .slider-img img {
+    margin-top: -429px;
+    margin-left: 526px;
+    height: 30%;
+    width: 30%;
+  }
+  .slider-content h2 {
+    font-size: 64px;
+    color: #fff;
+    margin-top: 159px;
+    margin-left: 31px;
+  }
+  .slider-content p {
+    font-size: 16px;
+    padding-right: 273px;
+  }
+
+  .solution-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .solution-text h2 {
+    font-size: 26px;
+    margin-bottom: -20px;
+  }
+  .solution-text p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .solution-text ul li i {
+    font-size: 15px;
+  }
+  .solution-text ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .solution-text .btn {
+    margin-top: -20px;
+  }
+
+  .event-text {
+    padding: 0 30px;
+  }
+   
+  .single-brand {
+    margin-right: 30px;
+  }
+  .quoteform h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .testimonial-wrapper::after {
+    left: 180px;
+  }
+  .video-wrapper h2 {
+    font-size: 23px;
+  }
+
+  .fea-text h3 {
+    font-size: 23px;
+  }
+
+  .testimonial-area {
+      padding-bottom: 0px;
+    }
+    .quote-select::before {
+      right: 21px;
+      top: 11px;
+    }
+
+    .quote-position img {
+      top: -115px;
+      left: -156px;
+      width: 23%;
+    }
+  }
+
+
+  
+  
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+  .slider-img img {
+    margin-top: -416px;
+    margin-left: 380px;
+    height: 40%;
+    width: 40%;
+  }
+  .slider-content h2 {
+    font-size: 46px;
+    margin-top: 149px;
+    margin-left: 36px;
+  }
+  .slider-content p {
+    font-size: 15px;
+    padding-right: 122px;
+  }
+  .features-heading h2 {
+    font-size: 30px;
+  }
+  .ceo-name {
+    margin-bottom: 50px;
+  }
+  .video-wrapper h2 {
+    font-size: 23px;
+    padding: 0 43px;
+  }
+  .video-wrapper a {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .video-wrapper span {
+    font-size: 13px;
+  }
+
+  .video-wrapper h2 {
+    font-size: 13px;
+  }
+
+  .slider-height {
+    min-height: 550px;
+  }
+
+  
+  .testimonial-wrapper::after {
+    right: 873px;
+  }
+  .single-brand {
+    margin-right: 16px;
+  }
+
+  .slider-img img {
+    margin-top: 29px;
+    margin-left: 76px;
+    height: 70%;
+    width: 70%;
+  }
+  .slider-content h2 {
+    font-size: 46px;
+    margin-top: 134px;
+  }
+  .slider-content p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  
+}
+
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+
+  
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
