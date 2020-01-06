@@ -91,6 +91,34 @@
     padding-right: 273px;
   }
 
+  .skill-header {
+	font-size: 23px;
+}
+.ceo-content p {
+	font-size: 8px;
+	color: #2b2b2b;
+}
+.progress {
+	margin-bottom: 15px;
+}
+.skill-title h5 {
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.video-wrapper h2 {
+	font-size: 35px;
+	padding: 0px;
+}
+.video-wrapper span {
+	font-size: 11px;
+}
+.fact-text h2 {
+	font-size: 40px;
+}
+.status-fact {
+	font-size: 15px;
+}
+
   .solution-img img {
     height: 100%;
     width: 100%;
@@ -98,7 +126,7 @@
 
   .solution-text h2 {
     font-size: 26px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
   }
   .solution-text p {
     font-size: 15px;
@@ -115,6 +143,9 @@
   .solution-text .btn {
     margin-top: -20px;
   }
+  .section-title h2 {
+	font-size: 45px;
+}
 
   .event-text {
     padding: 0 30px;
@@ -126,15 +157,19 @@
   .quoteform h2 {
     font-size: 32px;
   }
-  p {
-    font-size: 16px;
-  }
+  .team-text h3 {
+	font-size: 14px;
+}
+.team-text span {
+	font-size: 10px;
+}
   .testimonial-wrapper::after {
     left: 180px;
   }
-  .video-wrapper h2 {
-    font-size: 23px;
-  }
+  .client-text p {
+	font-size: 15px;
+}
+
 
   .fea-text h3 {
     font-size: 23px;
@@ -156,88 +191,206 @@
   }
 
 
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-content h2 {
+	font-size: 46px;
+}
+.slider-img img {
+	margin-left: 75px;
+}
+}
+
   
   
 /* Extra small Device. */
 @media (max-width: 767px) {
 
-  .slider-img img {
-    margin-top: -416px;
-    margin-left: 380px;
-    height: 40%;
-    width: 40%;
-  }
   .slider-content h2 {
-    font-size: 46px;
-    margin-top: 149px;
-    margin-left: 36px;
+	font-size: 33px;
+	margin-top: 125px;
+	margin-left: 0px;
+}
+ 
+ .slider-content p {
+	font-size: 11px;
+	font-weight: 400;
+	margin-left: 0px;
+	padding-right: 0px;
+	line-height: 22px;
+}
+.slider-img img {
+	margin-top: 29px;
+	margin-left: 0px;
+	height: 70%;
+	width: 100%;
+}
+.slider-height {
+    min-height: 550px;
   }
-  .slider-content p {
-    font-size: 15px;
-    padding-right: 122px;
-  }
+.slider-content .btn {
+	font-size: 11px;
+	margin-top: 40px;
+	margin-left: 0px;
+}
   .features-heading h2 {
     font-size: 30px;
   }
-  .ceo-name {
-    margin-bottom: 50px;
-  }
-  .video-wrapper h2 {
-    font-size: 23px;
-    padding: 0 43px;
-  }
-  .video-wrapper a {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    line-height: 50px;
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-  .video-wrapper span {
-    font-size: 13px;
-  }
+  .fea-text h3 {
+	font-size: 16px;
+}
+.fea-text p {
+	font-size: 11px;
+}
+.ceo-content h2 {
+	padding-right: 0px;
+}
+.skill-header {
+	font-size: 18px;
+}
+.ceo-content p {
+	font-size: 11px;
+	padding-right: 0px;
+	margin-bottom: 30px;
+}
+.ceo-name {
+	margin-bottom: 50px;
+}
+.skill-title h5 {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+.video-wrapper h2 {
+	font-size: 17px;
+	padding: 0 0px;
+}
+.video-wrapper a {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.video-wrapper span {
+	font-size: 10px;
+}
+.fact-text h2 {
+	font-size: 30px;
+}
+.status-fact {
+	font-size: 15px;
+}
+.solution-img img {
+	max-width: 100%;
+}
+.solution-text h2 {
+	font-size: 20px;
+}
+.solution-text p {
+	font-size: 11px;
+	line-height: 24px;
+}
+.solution-text ul li {
+	font-size: 13px;
+}
+.section-title h2 {
+	font-size: 19px;
+}
+.event-text h2 {
+	font-size: 40px;
+}
+.event-text {
+	padding: 0 0px;
+}
+.event-text span {
+	font-size: 11px;
+}
+.event-text p {
+	font-size: 15px;
+}
+.service-title h2 {
+	font-size: 28px;
+}
+.price-header h3 {
+	font-size: 22px;
+}
+.price-count h2 {
+	font-size: 50px;
+}
+.price-count span {
+	font-size: 25px;
+	top: -20px;
+}
+.price-content p {
+	font-size: 11px;
+}
+.btn-black {
+	font-size: 10px;
+}
+.testimonial-wrapper::after {
+right: 873px;
+}
+.single-brand {
+margin-right: 16px;
+}
 
-  .video-wrapper h2 {
-    font-size: 13px;
-  }
 
-  .slider-height {
-    min-height: 550px;
-  }
+.service-title h2 {
+	font-size: 30px;
+}
+.price-content p {
+	font-size: 13px;
+}
+.team-text h3 {
+	font-size: 10px;
+	margin-left: -15px;
+}
+.team-text span {
+	font-size: 8px;
+	margin-left: -15px;
+}
+.quoteform h2 {
+	font-size: 20px;
+}
+.quoteform p {
+	font-size: 12px;
+	line-height: 24px;
+}
+.quote-select::before {
+	right: 15px;
+	top: 14px;
+}
+.testimonial-wrapper::before {
+	right: -449px;
+}
+.testimonial-wrapper::after {
+	right: 1008px;
+}
+.client-text p {
+	font-size: 10px;
+	line-height: 22px;
+}
+.brand-area {
+	padding-top: 35px;
+}
 
-  
-  .testimonial-wrapper::after {
-    right: 873px;
-  }
-  .single-brand {
-    margin-right: 16px;
-  }
-
-  .slider-img img {
-    margin-top: 29px;
-    margin-left: 76px;
-    height: 70%;
-    width: 70%;
-  }
-  .slider-content h2 {
-    font-size: 46px;
-    margin-top: 134px;
-  }
-  .slider-content p {
-    font-size: 16px;
-    padding-right: 0px;
-  }
+.footer-content p {
+	font-size: 13px;
+	line-height: 22px;
+}
+.widget-area {
+	padding-top: 60px;
+}
+.copyright-text p {
+	font-size: 8px;
+}
   
 }
 
  
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  
 
-  
-}
 
 
 /* retina query */

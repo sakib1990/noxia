@@ -246,6 +246,9 @@ background: #444;
 }
 .btn-black {
 	background: #1e1e1e;
+	padding: 23px 52px;
+	font-size: 12px;
+	font-weight: 600;
 }
 
 .btn.btn-2 {
@@ -356,10 +359,9 @@ background: #444;
 .slider-content .btn {
 	font-size: 12px;
 	background: #ee3364;
-	height: 60px;
-	width: 180px;
 	margin-top: 50px;
 	margin-left: 40px;
+	padding: 20px 45px;
 }
 .slider-content .btn:hover {
 	background: #fff;
@@ -424,8 +426,8 @@ background: #444;
 	background: #ee3364;
 }
 .section-btn .btn:hover {
-	color: #ee3364;
-	background: #222;
+	color: #fff;
+	background: #2e2e2e;
 }
 
 /* skill-area */
@@ -437,7 +439,7 @@ background: #444;
 }
 .ceo-content p {
 	font-size: 15px;
-	color: #c0c8ce;
+	color: #2b2b2b;
 	padding-right: 73px;
 	margin-bottom: 30px;
 }
@@ -568,6 +570,7 @@ background: #444;
 }
 
 
+
 /* event-area */
 
 .event-wrapper {
@@ -629,7 +632,7 @@ background: #444;
 	color: #fff;
 	font-size: 10px;
   }
-  event-btn .btn {
+  .event-btn .btn {
 	background: #ee3364;
 	font-size: 14px;
 	color: #fff;
@@ -657,6 +660,15 @@ background: #444;
 }
 
 /* price-area */
+.service-title h2 {
+	font-size: 65px;
+	color: #262526;
+	margin-bottom: 45px;
+}
+.service-title span {
+	font-size: 13px;
+	color: #ee3364;
+}
 .price-header h3 {
 	font-size: 30px;
 	color: #0b0b0b;
@@ -716,8 +728,15 @@ background: #444;
 	  color: #fff;
   }
   .price-active .price-btn a.btn {
-	  border: 2px solid #fff;
-	  background: none;
+	border: 2px solid #fff;
+	background: none;
+	padding: 21px 50px;
+	font-size: 12px;
+	font-weight: 600;
+}
+  .price-btn a.btn:hover {
+  	background: #5c5c5c;
+  	color: #fff;
   }
   .price-active .price-btn a.btn:hover {
 	  background: #fff;
@@ -755,7 +774,8 @@ background: #444;
   font-size: 30px;
 }
 .team-text span {
-  color: #ee3364;
+	color: #ee3364;
+	font-size: 16px;
 }
 .single-team {
   text-align: center;
@@ -897,7 +917,7 @@ background-position: top;
 	color: #303030;
 }
 
-p {
+.client-text p {
 	font-size: 17px;
 	font-weight: normal;
 	line-height: 30px;
@@ -955,4 +975,11 @@ p {
 .footer-social-icon a {
 	color: #ee3364;
 	margin-right: 20px;
+}
+.copyright-text p {
+	font-size: 15px;
+	color: #767b86;
+}
+.copyright-text span {
+	color: #fff;
 }
