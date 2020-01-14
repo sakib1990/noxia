@@ -329,9 +329,7 @@
 .btn-black {
 	font-size: 10px;
 }
-.testimonial-wrapper::after {
-right: 873px;
-}
+
 .single-brand {
 margin-right: 16px;
 }
@@ -359,18 +357,21 @@ margin-right: 16px;
 	line-height: 24px;
 }
 .quote-select::before {
-	right: 15px;
-	top: 14px;
-}
-.testimonial-wrapper::before {
-	right: -449px;
+	right: 9px;
+	top: 12px;
 }
 .testimonial-wrapper::after {
-	right: 1008px;
+	right: 838px;
+	font-size: 40px;
 }
+.testimonial-wrapper::before {
+	left: 535px;
+	font-size: 40px;
+}
+
 .client-text p {
-	font-size: 10px;
-	line-height: 22px;
+	font-size: 12px;
+	line-height: 24px;
 }
 .brand-area {
 	padding-top: 35px;
